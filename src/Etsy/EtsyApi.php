@@ -111,21 +111,21 @@ class EtsyApi
 	private function prepareParameters($params) {
 		$query_pairs = array();
 		$allowed = array(
-		"limit", 
-		"offset", 
-		"page", 
-		"sort_on", 
-		"sort_order", 
-		"include_private", 
-		"language",
-		"include_private",
-        "language",
-        "min_created",
-        "max_created",
-        "max_last_modified",
-        "min_last_modified",
-        "was_paid",
-        "was_shipped"
+			"limit", 
+			"offset", 
+			"page", 
+			"sort_on", 
+			"sort_order", 
+			"include_private", 
+			"language",
+			"include_private",
+       		"language",
+        	"min_created",
+       		"max_created",
+        	"max_last_modified",
+        	"min_last_modified",
+        	"was_paid",
+        	"was_shipped"
 		);
 
 		if ($params) {
